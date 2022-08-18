@@ -14,5 +14,5 @@ export default NextAuth({
       from: process.env.EMAIL_FROM as string,
     }),
   ],
-  adapter: MongooseAdapter(process.env.MONGODB_URI),
+  adapter: MongooseAdapter(process.env.MONGODB_URI as string),
 });

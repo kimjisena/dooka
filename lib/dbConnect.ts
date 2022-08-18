@@ -1,13 +1,17 @@
-import type { Connection } from "mongoose";
+import type { Connection, ConnectOptions } from "mongoose";
 import { createConnection } from "mongoose";
 
-let conn: Connection;
+const  options: ConnectOptions = {
+  appName: 'dooka',
+};
+
+let connection: Connection;
 
 export default function dbConnect(uri: string) {
-  if (conn) {
-    return conn;
+  if (connection) {
+    return connection;
   }
 
-  conn = createConnection(uri);
-  return conn;
+  connection = createConnection(uri, options);
+  return connection;
 }

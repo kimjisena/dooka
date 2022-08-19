@@ -10,9 +10,10 @@ type LayoutProps = {
 export default function Layout ({ children }: LayoutProps ) {
 
   return (
-    <>
-    <Header />
-    { children }
-    </>
+    <div className={`relative w-full`}>
+      <Header />
+      { children }
+      <Footer />
+    </div>
   );
 }

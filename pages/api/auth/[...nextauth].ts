@@ -4,6 +4,9 @@ import EmailProvider from "next-auth/providers/email";
 import { MongooseAdapter } from "../../../lib/MongooseAdapter";
 
 export default NextAuth({
+  session: {
+    strategy: 'jwt',
+  },
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID as string,

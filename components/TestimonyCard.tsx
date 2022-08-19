@@ -14,10 +14,10 @@ export default function TestimonyCard ({ img, info, msg }: TestimonyCardProps) {
   return (
   <div className={`flex flex-col items-center justify-between`}>
 
-    <Image src={img} alt="Kim Jisena" width={128} height={128} className={`rounded-full`} />
+    <Image src={img} alt="Kim Jisena" width={128} height={128} className={`rounded-full object-cover`} />
 
     <h1 className={`text-2xl`}>
-      {info.name}
+      {info.name},
     </h1>
     <h2 className={`text-sm italic`}>
       {info.title}

@@ -42,12 +42,13 @@ const Home: NextPage = () => {
         <h1 className={`font-bold text-8xl text-content-dark pb-2`}>
           dooka
         </h1>
-        <h2 className={`text-5xl flex flex-col items-center border-y-4 border-white text-content-dark`}>
+        <h2 className={`text-5xl font-bold flex flex-col items-center border-y-4 border-white text-content-dark`}>
           <span className={`py-2`}>the inventory</span>
           <span className={`py-2`}>manager</span>
           <span className={`py-2`}>loved by</span>
           <span className={`py-2`}>retailers</span>
         </h2>
+        <h3 className={`text-content-dark text-3xl p-2`}>We manage it. You earn.</h3>
         <ContinueButton />
       </section>
 

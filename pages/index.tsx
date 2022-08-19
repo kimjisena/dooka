@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import ContinueButton from '../components/ContinueButton';
+import StartRating from '../components/StarRating';
 
 const Home: NextPage = () => {
 
@@ -25,11 +26,12 @@ const Home: NextPage = () => {
         <ContinueButton />
       </section>
 
-      <section id='reviews' className={`flex flex-col items-center p-4`}>
-        user reviews
+      <section id='reviews' className={`flex flex-col items-center p-4 bg-background-dark text-content-dark mt-2`}>
+        <StartRating />
+        <div>testimony</div>
       </section>
 
-      <section id='features' className={`flex flex-col items-center p-4`}>
+      <section id='features' className={`flex flex-col items-center p-4 bg-background-dark text-content-dark mt-2`}>
         features
       </section>
     </main>

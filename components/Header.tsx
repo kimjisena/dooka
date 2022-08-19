@@ -6,7 +6,7 @@ let authenticated: boolean = false;
 
 export default function Header () {
   return (
-    <header className={`fixed w-full h-20 bg-secondary flex flex-row`}>
+    <header className={`fixed w-full h-20 border-b-[1px] border-success-light bg-success-light shadow-md shadow-success-dark flex flex-row justify-between items-center`}>
       <Logo />
       {authenticated ?  <NavBar />: <GetStartedButton /> }
     </header>

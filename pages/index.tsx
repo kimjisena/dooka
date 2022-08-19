@@ -12,11 +12,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section id='introduction' className={`flex flex-col items-center p-4 bg-success-light`}>
-        <h1 className={`font-bold text-8xl text-title pb-2`}>
+      <section id='introduction' className={`flex flex-col items-center p-4 bg-background-dark`}>
+        <h1 className={`font-bold text-8xl text-content-dark pb-2`}>
           dooka
         </h1>
-        <h2 className={`text-5xl flex flex-col items-center border-y-4 border-primary`}>
+        <h2 className={`text-5xl flex flex-col items-center border-y-4 border-white text-content-dark`}>
           <span className={`py-2`}>the inventory</span>
           <span className={`py-2`}>manager</span>
           <span className={`py-2`}>loved by</span>
@@ -25,11 +25,11 @@ const Home: NextPage = () => {
         <ContinueButton />
       </section>
 
-      <section id='reviews' className={`flex flex-col items-center p-4 bg-success-light`}>
+      <section id='reviews' className={`flex flex-col items-center p-4`}>
         user reviews
       </section>
 
-      <section id='features' className={`flex flex-col items-center p-4 bg-success-light`}>
+      <section id='features' className={`flex flex-col items-center p-4`}>
         features
       </section>
     </main>

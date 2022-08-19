@@ -49,6 +49,32 @@ module.exports = {
       'dark-secondary': '#1E5128',
       'dark-tertiary-one': '#4E9F3D',
       'dark-tertiary-two': '#D8E9A8',
+
+      // light and dark theme
+      'background': {
+        'light': '#e6eaf3',
+        'dark': '#0f1525',
+      },
+      'content': {
+        'dark': '#e0e0d8',
+        'light': '#1c2641',
+      },
+      'header': {
+        'light': '#ced4e0',
+        'dark': '#0a0d1c'
+      },
+      'violet': {
+        'light': '#415891',
+        'dark': '#28375e'
+      },
+      'blush': {
+        'light': '#ba9b77',
+        'dark': '#cb8876',
+      },
+      'white': {
+        DEFAULT: '#fff',
+        100: '#e6eaf3',
+      },
     },
     extend: {},
   },

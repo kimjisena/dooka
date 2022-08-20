@@ -34,7 +34,9 @@ const Home: NextPage = () => {
     <main className={`w-full mt-24 md:w-4/5 mx-auto mb-4`}>
       <Head>
         <title>dooka - inventory manager</title>
+        <meta charSet="utf-8"/>
         <meta name="description" content="dooka - The inventory manager loved by retailers" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

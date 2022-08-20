@@ -1,10 +1,10 @@
 import type { NextPage } from 'next';
 import { useState } from 'react';
 import Head from 'next/head';
-import ContinueButton from '../components/ContinueButton';
-import StarRating from '../components/StarRating';
-import Testimony from '../components/Testimony';
-import SlideIndicator from '../components/SlideIndicator';
+import ContinueButton from '../components/index/ContinueButton';
+import StarRating from '../components/index/StarRating';
+import Testimony from '../components/index/Testimony';
+import SlideIndicator from '../components/index/SlideIndicator';
 
 const Home: NextPage = () => {
   const [next, setNext] = useState(0);

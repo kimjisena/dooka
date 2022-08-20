@@ -35,7 +35,7 @@ export default function Footer () {
         </li>
       </ul>
 
-      <p className={`p-2 text-content-light`}>Dooka Inc &copy; 2022. All rights reserved.</p>
+      <p className={`p-2 text-content-light`}>Dooka, Inc. &copy; 2022. All rights reserved.</p>
     </footer>
   );
 }

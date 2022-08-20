@@ -1,9 +1,9 @@
 import TestimonyCard, { type TestimonyCardProps } from "./TestimonyCard";
-import kimPic from '../public/kim.jpg';
-import mayaPic from '../public/maya.jpg';
-import alicePic from '../public/girl.jpg';
-import annePic from '../public/anne.jpg';
-import emmyPic from '../public/emmy.jpg';
+import kimPic from '../../public/kim.jpg';
+import mayaPic from '../../public/maya.jpg';
+import alicePic from '../../public/girl.jpg';
+import annePic from '../../public/anne.jpg';
+import emmyPic from '../../public/emmy.jpg';
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import SliderButton from "./SliderButton";
 
